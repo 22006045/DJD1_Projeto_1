@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class XenoFollow : MonoBehaviour
 {
-    private Transform targetPlayer;
+    public Transform targetPlayer;
     public float speed;
     public bool isDead;
     [SerializeField]

@@ -15,7 +15,8 @@ public class Trap : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D> ();
         Player = GameObject.Find("Player");
-        Xeno = GameObject.Find("Xeno");    }
+        Xeno = GameObject.Find("Xeno");    
+    }
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -36,7 +37,7 @@ public class Trap : MonoBehaviour
         if(col.gameObject.name.Equals("Xeno")) 
         {
             Vector2 hitDirection = Player.transform.position - transform.position;
-            Xeno.GetComponent<Xeno>().DealDamage(100,hitDirection);
+            col.gameObject.GetComponent<Xeno>().DealDamage(100,hitDirection);
         }  
 
 
