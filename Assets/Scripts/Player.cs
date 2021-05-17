@@ -77,7 +77,8 @@ public class Player : Character
 
     protected override void OnDeath()
     {
-        
+        GameMng gameManager = FindObjectOfType<GameMng>();
+        gameManager.BackToMainMenu(2);
     }
 
 }

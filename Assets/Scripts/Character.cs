@@ -159,8 +159,7 @@ public class Character : MonoBehaviour
 
     protected virtual void OnDeath()
     {
-        GameMng gameManager = FindObjectOfType<GameMng>();
-        gameManager.BackToMainMenu(2);
+        
     }
 
 

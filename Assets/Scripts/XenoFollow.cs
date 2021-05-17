@@ -6,31 +6,42 @@ public class XenoFollow : MonoBehaviour
 {
     private Transform targetPlayer;
     public float speed;
+    public bool isDead;
 
 
 
     void Start()
     {
+        isDead = true;
         targetPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         if(targetPlayer == null)
         {
-            
+            isDead = false;
         }
 
     }
 
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, speed * Time.deltaTime);
-
-        if(transform.position.x < targetPlayer.position.x)
+        if(isDead == true)
         {
-            transform.localScale = new Vector3(-1, 1, -1);
-        }
 
+        
+            transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, speed * Time.deltaTime);
+
+            if(transform.position.x < targetPlayer.position.x)
+            {
+                transform.localScale = new Vector3(-1, 1, -1);
+            }
+
+            else
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+        }
         else
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            
         }
     }
 
