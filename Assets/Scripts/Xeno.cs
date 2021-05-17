@@ -11,6 +11,8 @@ public class Xeno : Character
     [SerializeField]    
     private Transform   wallCheckObject;
     private Transform targetPlayer;
+    [SerializeField]
+    private GameObject PrefabAcido;
   
 
     protected override bool knockbackOnHit => false;
@@ -70,6 +72,16 @@ public class Xeno : Character
             }
         }
     }
+
+
+    protected override void OnDeath()
+    {
+        if(PrefabAcido)
+        {
+            Instantiate(PrefabAcido, transform.position, transform.rotation);
+        }
+        
+    }  
 
     
 
