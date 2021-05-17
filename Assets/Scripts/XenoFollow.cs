@@ -7,8 +7,8 @@ public class XenoFollow : MonoBehaviour
     private Transform targetPlayer;
     public float speed;
     public bool isDead;
-
-
+    [SerializeField]
+    private GameObject PrefabAcido;
 
     void Start()
     {
@@ -45,5 +45,25 @@ public class XenoFollow : MonoBehaviour
         }
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Character character = collision.GetComponent<Character>();
+        if (character != null)
+        {
+            if (character.IsHostile(faction))
+            {
+                Vector2 hitDirection = character.transform.position - transform.position;
+
+                character.DealDamage(35, hitDirection);
+            }
+        }
+    }
+   protected override void OnDeath()
+        {
+            if(PrefabAcido)
+            {
+                Instantiate(PrefabAcido.transform.position, transform.rotation);
+            }
+        
+        }  
 }

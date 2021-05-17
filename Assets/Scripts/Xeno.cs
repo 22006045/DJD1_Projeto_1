@@ -11,6 +11,7 @@ public class Xeno : Character
     [SerializeField]    
     private Transform   wallCheckObject;
     private Transform targetPlayer;
+  
 
     protected override bool knockbackOnHit => false;
 
@@ -69,6 +70,8 @@ public class Xeno : Character
             }
         }
     }
+
+    
 
    
 }
