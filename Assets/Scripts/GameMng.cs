@@ -19,6 +19,18 @@ public class GameMng : MonoBehaviour
 
     public void BackToMainMenu(float time)
     {
-        SceneManager.LoadScene("MainMenu");
+        StartCoroutine(BackToMainMenuCR(time));
+    }
+    IEnumerator BackToMainMenuCR(float time)
+    {
+        float elapsedTime = 0.0f;
+        while (elapsedTime < time)
+        {
+            yield return null;
+
+            elapsedTime += Time.deltaTime;
+
+        }
+        SceneManager.LoadScene("Main Menu");
     }
 }
