@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class XenoFollow : MonoBehaviour
+public class GameMng : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +15,10 @@ public class XenoFollow : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void BackToMainMenu(float time)
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

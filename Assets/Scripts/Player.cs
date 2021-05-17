@@ -74,4 +74,10 @@ public class Player : Character
 
         base.Update();
     }
+
+    protected override void OnDeath()
+    {
+        
+    }
+
 }

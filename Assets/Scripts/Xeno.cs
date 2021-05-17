@@ -10,6 +10,7 @@ public class Xeno : Character
     private float       moveSpeed = 100.0f;
     [SerializeField]    
     private Transform   wallCheckObject;
+    private Transform targetPlayer;
 
     protected override bool knockbackOnHit => false;
 
@@ -24,11 +25,22 @@ public class Xeno : Character
 
             bool hasWall = (wallCollider != null);
 
+            transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, moveSpeed * Time.deltaTime);
             if ((!hasGround) || (hasWall))
             {
-                moveDir = -moveDir;
-            }
+               moveSpeed = 0;
+            
 
+                if(transform.position.x < targetPlayer.position.x)
+                {
+                    transform.localScale = new Vector3(-1, 1, -1);
+                }
+
+                else
+                {
+                    transform.localScale = new Vector3(1, 1, 1);
+                }
+            }
             Vector2 currentVelocity = rb.velocity;
 
             currentVelocity.x = moveDir * moveSpeed;

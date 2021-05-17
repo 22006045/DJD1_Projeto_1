@@ -106,6 +106,8 @@ public class Character : MonoBehaviour
                 Destroy(gameObject, 2.0f);
             }
 
+            OnDeath();
+
            
         }
         else
@@ -154,4 +156,12 @@ public class Character : MonoBehaviour
 
         return false;
     }
+
+    protected virtual void OnDeath()
+    {
+        GameMng gameManager = FindObjectOfType<GameMng>();
+        gameManager.BackToMainMenu(2);
+    }
+
+
 }
