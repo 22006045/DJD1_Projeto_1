@@ -36,7 +36,7 @@ public class Trap : MonoBehaviour
         if(col.gameObject.name.Equals("Player")) 
         {
             Vector2 hitDirection = Player.transform.position - transform.position;
-            Player.GetComponent<Player>().DealDamage(100,hitDirection);
+            Player.GetComponent<Player>().DealDamage(2,hitDirection);
           
         }  
 
@@ -44,7 +44,7 @@ public class Trap : MonoBehaviour
         {
             Debug.Log("OLAAAA");
             Vector2 hitDirection = Player.transform.position - transform.position;
-            col.gameObject.GetComponent<XenoFollow>().DealDamage(100,hitDirection);
+            col.gameObject.GetComponent<XenoFollow>().DealDamage(2,hitDirection);
         }  
         
           

@@ -59,7 +59,7 @@ public class XenoFollow : Character
             
             Vector2 hitDirection = character.transform.position - transform.position;
 
-            character.DealDamage(50, hitDirection);
+            character.DealDamage(1, hitDirection);
             
         }
 
@@ -73,5 +73,5 @@ public class XenoFollow : Character
         }
         
     }  
-   
+    
 }

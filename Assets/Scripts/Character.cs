@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
     [SerializeField]
     protected Faction     faction;
     [SerializeField]
-    protected int         maxHealth = 100;
+    protected int         maxHealth = 2;
     [SerializeField]
     protected Transform   groundCheckObject;
     [SerializeField]
@@ -43,6 +43,10 @@ public class Character : MonoBehaviour
     protected bool canMove { get { return (knockbackTimer <= 0) && (!isDead); } }
 
     protected virtual bool knockbackOnHit => true;
+
+    public int nHealth => health;
+    public int nMaxHealth => maxHealth;
+
 
     protected virtual void Start()
     {
