@@ -11,7 +11,7 @@ public class Coin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gamePartManager = FindObjectOfType<coinManager>();
+        
     }
 
     // Update is called once per frame
@@ -24,6 +24,7 @@ public class Coin : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            gamePartManager = FindObjectOfType<coinManager>();
             gamePartManager.AddParts(partsValue);
             Destroy(gameObject);
         }
