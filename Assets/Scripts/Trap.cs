@@ -10,12 +10,13 @@ public class Trap : MonoBehaviour
     private GameObject Player;
     private GameObject Xeno;
     private GameObject trap;
-    public int seconds;
+    private float delay = 2.0f;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        TimerOn = false;
+       
         rb = GetComponent<Rigidbody2D> ();
         Player = GameObject.Find("Player");
         Xeno = GameObject.Find("Xeno");    
@@ -25,14 +26,15 @@ public class Trap : MonoBehaviour
     {
         if (col.gameObject.name.Equals("Player"))
             rb.isKinematic = false;
-            TimerOn = true;
+            
         if(col.gameObject.name.Equals("Xeno"))
             rb.isKinematic = false;
-            TimerOn = true;
+            
     }
     
     void OnCollisionEnter2D (Collision2D col)
     {
+        
         if(col.gameObject.name.Equals("Player")) 
         {
             Vector2 hitDirection = Player.transform.position - transform.position;
