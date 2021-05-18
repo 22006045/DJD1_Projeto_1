@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class XenoFollow : MonoBehaviour
+public class XenoFollow : Character
 {
     public Transform targetPlayer;
     public float speed;
@@ -10,20 +10,24 @@ public class XenoFollow : MonoBehaviour
     [SerializeField]
     private GameObject PrefabAcido;
 
-    void Start()
+    protected override void Start()
     {
         isDead = false;
         targetPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        
+        base.Start();
+
+    }
+
+    protected override void Update()
+    
+    {
         if(targetPlayer == null)
         {
             isDead = true;
            
         }
-
-    }
-
-    void Update()
-    {
+        
         if(isDead == false)
         {
 
@@ -44,6 +48,30 @@ public class XenoFollow : MonoBehaviour
         {
             targetPlayer = null;
         }
+        base.Update();
     }
+
+     private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Character character = collision.GetComponent<Character>();
+        if (character != null && collision.gameObject.name.Equals("Player"))
+        {
+            
+            Vector2 hitDirection = character.transform.position - transform.position;
+
+            character.DealDamage(50, hitDirection);
+            
+        }
+
+    }
+
+    protected override void OnDeath()
+    {
+        if(PrefabAcido)
+        {
+            Instantiate(PrefabAcido, transform.position, transform.rotation);
+        }
+        
+    }  
    
 }

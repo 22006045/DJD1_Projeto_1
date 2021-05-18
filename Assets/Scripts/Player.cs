@@ -39,7 +39,7 @@ public class Player : Character
 
         Vector2 currentVelocity = rb.velocity;
 
-        if ((Input.GetButtonDown("Jump")) && (nJumps > 0))
+        if ((Input.GetButtonDown("Jump")) && (nJumps > 0) && IsGround())
         {
             currentVelocity.y = jumpSpeed;
 
@@ -68,7 +68,7 @@ public class Player : Character
 
         animator.SetFloat("AbsSpeedX", Mathf.Abs(currentVelocity.x));
         animator.SetFloat("SpeedY", currentVelocity.y);
-        animator.SetBool("OnGround", isGround);
+        //animator.SetBool("OnGround", isGround);
 
        
 

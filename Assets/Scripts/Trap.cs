@@ -34,10 +34,11 @@ public class Trap : MonoBehaviour
             Player.GetComponent<Player>().DealDamage(100,hitDirection);
         }  
 
-        if(col.gameObject.name.Equals("Xeno")) 
+        if(col.gameObject.tag == "Enemy" )
         {
+            Debug.Log("OLAAAA");
             Vector2 hitDirection = Player.transform.position - transform.position;
-            col.gameObject.GetComponent<Xeno>().DealDamage(100,hitDirection);
+            col.gameObject.GetComponent<XenoFollow>().DealDamage(100,hitDirection);
         }  
 
 

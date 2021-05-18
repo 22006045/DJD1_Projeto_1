@@ -44,7 +44,7 @@ public class Character : MonoBehaviour
 
     protected virtual bool knockbackOnHit => true;
 
-    void Start()
+    protected virtual void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -81,11 +81,12 @@ public class Character : MonoBehaviour
     public void DealDamage(int damage, Vector2 hitDirection)
     {
         if (!canHit) return;
-
+        Debug.Log(health);
         health = health - damage;
 
-        if (health == 0)
+        if (health <= 0)
         {
+            
             if (deathPrefab)
             {
                 GameObject explosionObject = Instantiate(deathPrefab, transform.position, transform.rotation);
@@ -155,6 +156,15 @@ public class Character : MonoBehaviour
         if (faction != this.faction) return true;
 
         return false;
+    }
+
+     protected virtual void OnDrawGizmosSelected()
+    {
+        if (groundCheckObject != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(groundCheckObject.position, groundCheckRadius);
+        }
     }
 
     protected virtual void OnDeath()

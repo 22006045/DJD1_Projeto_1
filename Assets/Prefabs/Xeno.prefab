@@ -199,9 +199,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa995dfbe68c7f41881557a78ddff91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faction: 0
+  maxHealth: 100
+  groundCheckObject: {fileID: 0}
+  groundCheckRadius: 3
+  groundCheckLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  invulnerabilityDuration: 2
+  blinkDuration: 0.2
+  knockbackVelocity: 30
+  knockbackDuration: 0.5
+  hitKnockbackDuration: 0.2
+  deathPrefab: {fileID: 0}
   targetPlayer: {fileID: 0}
   speed: 50
-  isDead: 0
   PrefabAcido: {fileID: 4595570785111495898, guid: 19421ed4ee32e0b47bf50930f9230f9e,
     type: 3}
 --- !u!1 &8210198136459320059
