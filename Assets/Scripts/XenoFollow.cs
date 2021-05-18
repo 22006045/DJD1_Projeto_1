@@ -6,24 +6,25 @@ public class XenoFollow : MonoBehaviour
 {
     public Transform targetPlayer;
     public float speed;
-    public bool isDead;
+    private bool isDead;
     [SerializeField]
     private GameObject PrefabAcido;
 
     void Start()
     {
-        isDead = true;
+        isDead = false;
         targetPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         if(targetPlayer == null)
         {
-            isDead = false;
+            isDead = true;
+           
         }
 
     }
 
     void Update()
     {
-        if(isDead == true)
+        if(isDead == false)
         {
 
         
@@ -41,7 +42,7 @@ public class XenoFollow : MonoBehaviour
         }
         else
         {
-            
+            targetPlayer = null;
         }
     }
    
