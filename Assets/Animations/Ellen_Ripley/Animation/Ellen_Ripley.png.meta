@@ -146,12 +146,12 @@ TextureImporter:
       name: Ellen_Ripley_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 342.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 8
+        y: 344
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +167,12 @@ TextureImporter:
       name: Ellen_Ripley_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 342.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 33
+        y: 344
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,12 +188,12 @@ TextureImporter:
       name: Ellen_Ripley_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 304.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2
+        y: 307
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: Ellen_Ripley_3
       rect:
         serializedVersion: 2
-        x: 25
-        y: 304.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 27
+        y: 307
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -230,12 +230,12 @@ TextureImporter:
       name: Ellen_Ripley_4
       rect:
         serializedVersion: 2
-        x: 50
-        y: 304.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 55
+        y: 307
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: Ellen_Ripley_5
       rect:
         serializedVersion: 2
-        x: 75
-        y: 304.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 79
+        y: 307
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -272,12 +272,12 @@ TextureImporter:
       name: Ellen_Ripley_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 266.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 2
+        y: 270
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,12 +293,12 @@ TextureImporter:
       name: Ellen_Ripley_7
       rect:
         serializedVersion: 2
-        x: 25
-        y: 266.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 26
+        y: 270
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: Ellen_Ripley_8
       rect:
         serializedVersion: 2
-        x: 50
-        y: 266.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 55
+        y: 270
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: Ellen_Ripley_9
       rect:
         serializedVersion: 2
-        x: 75
-        y: 266.9
-        width: 25.333334
-        height: 38.1
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 79
+        y: 270
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

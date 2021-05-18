@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: e032f6131d061ff47adafbdc646e8fb9
+guid: eacf13397a498274894101cfc13f17e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2335479817816697551
-    second: xenomorph_walk_animation_0
+      213: -6737730626325751522
+    second: acid_1
   - first:
-      213: 1685145328426327367
-    second: xenomorph_walk_animation_1
+      213: 8054280360478193846
+    second: acid_2
   - first:
-      213: -299904176746300483
-    second: xenomorph_walk_animation_2
+      213: 7581305520753337138
+    second: acid_0
   - first:
-      213: 7660558445387890401
-    second: xenomorph_walk_animation_3
+      213: -2614533222644868274
+    second: acid_4
   - first:
-      213: 8260205023194764920
-    second: xenomorph_walk_animation_4
+      213: 1677276544941849684
+    second: acid_5
   - first:
-      213: 6328032086947132251
-    second: xenomorph_walk_animation_5
-  - first:
-      213: 1547052098299381009
-    second: xenomorph_walk_animation_6
-  - first:
-      213: -8628413150843171150
-    second: xenomorph_walk_animation_7
+      213: 3675740572000649747
+    second: acid_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,169 +131,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: xenomorph_walk_animation_0
+      name: acid_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 140
-        width: 53
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 36
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcaee09358a496020800000000000000
-      internalID: 2335479817816697551
+      spriteID: 233e5322435363960800000000000000
+      internalID: 7581305520753337138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_1
+      name: acid_1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 140
-        width: 51
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 26
+        y: 36
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d92c77fb6d26710800000000000000
-      internalID: 1685145328426327367
+      spriteID: e19559181b5ce72a0800000000000000
+      internalID: -6737730626325751522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_2
+      name: acid_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 140
-        width: 55
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 36
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbb716e7db686dbf0800000000000000
-      internalID: -299904176746300483
+      spriteID: 6b835bf705d86cf60800000000000000
+      internalID: 8054280360478193846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_3
+      name: acid_4
       rect:
         serializedVersion: 2
-        x: 169
-        y: 140
-        width: 55
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 10
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eeb6769155cf4a60800000000000000
-      internalID: 7660558445387890401
+      spriteID: e4b9bcae2ef47bbd0800000000000000
+      internalID: -2614533222644868274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_4
+      name: acid_5
       rect:
         serializedVersion: 2
-        x: 3
-        y: 102
-        width: 52
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 26
+        y: 10
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 876db6344b422a270800000000000000
-      internalID: 8260205023194764920
+      spriteID: 45c7a5b8122e64710800000000000000
+      internalID: 1677276544941849684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_5
+      name: acid_10
       rect:
         serializedVersion: 2
-        x: 57
-        y: 102
-        width: 55
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 10
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b53f1cdd7afa1d750800000000000000
-      internalID: 6328032086947132251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: xenomorph_walk_animation_6
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 102
-        width: 53
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1154820dfab387510800000000000000
-      internalID: 1547052098299381009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: xenomorph_walk_animation_7
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 102
-        width: 53
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2be0fa064f7b14880800000000000000
-      internalID: -8628413150843171150
+      spriteID: 3120798439ad20330800000000000000
+      internalID: 3675740572000649747
       vertices: []
       indices: 
       edges: []

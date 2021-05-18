@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 4595570785111495896}
   - component: {fileID: 4595570785111495897}
   - component: {fileID: 4595570785111495901}
+  - component: {fileID: 8395785709874461419}
   m_Layer: 0
-  m_Name: acid_2
+  m_Name: PrefabAcido
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8054280360478193846, guid: eacf13397a498274894101cfc13f17e4,
+  m_Sprite: {fileID: 6156182451415439221, guid: 2de2a9aca8b18d94b996a59ec2f30c8b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.26, y: 0.51}
+    oldSize: {x: 20, y: 24}
     newSize: {x: 0.26, y: 0.51}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -145,3 +146,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdead61f9d1c23142bf20dfe14a2e35e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &8395785709874461419
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4595570785111495898}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2143e7a6f1686a14fa20406b836f1987, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

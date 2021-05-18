@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: e032f6131d061ff47adafbdc646e8fb9
+guid: 7de8fd9e891bb2443b185bbf81792ba1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2335479817816697551
-    second: xenomorph_walk_animation_0
+      213: 2906397964264285396
+    second: Ellen_Ripley 1_0
   - first:
-      213: 1685145328426327367
-    second: xenomorph_walk_animation_1
+      213: 1763798119080854940
+    second: Ellen_Ripley 1_1
   - first:
-      213: -299904176746300483
-    second: xenomorph_walk_animation_2
+      213: 3424204230147701361
+    second: Ellen_Ripley 1_2
   - first:
-      213: 7660558445387890401
-    second: xenomorph_walk_animation_3
+      213: -2435680779407030283
+    second: Ellen_Ripley 1_3
   - first:
-      213: 8260205023194764920
-    second: xenomorph_walk_animation_4
+      213: 8540564386641040878
+    second: Ellen_Ripley 1_4
   - first:
-      213: 6328032086947132251
-    second: xenomorph_walk_animation_5
+      213: 2829659057389620720
+    second: Ellen_Ripley 1_5
   - first:
-      213: 1547052098299381009
-    second: xenomorph_walk_animation_6
+      213: -6614567306050824006
+    second: Ellen_Ripley 1_6
   - first:
-      213: -8628413150843171150
-    second: xenomorph_walk_animation_7
+      213: 5062386731468289752
+    second: Ellen_Ripley 1_7
+  - first:
+      213: -2675899294171960856
+    second: Ellen_Ripley 1_8
+  - first:
+      213: 4655131035776649675
+    second: Ellen_Ripley 1_9
+  - first:
+      213: 1994529391185912286
+    second: Ellen_Ripley 1_10
+  - first:
+      213: -4390415791317651500
+    second: Ellen_Ripley 1_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -137,13 +149,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: xenomorph_walk_animation_0
+      name: Ellen_Ripley 1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 140
-        width: 53
-        height: 29
+        x: 8
+        y: 344
+        width: 10
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcaee09358a496020800000000000000
-      internalID: 2335479817816697551
+      spriteID: 4d424ebbc89955820800000000000000
+      internalID: 2906397964264285396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_1
+      name: Ellen_Ripley 1_1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 140
-        width: 51
-        height: 29
+        x: 33
+        y: 344
+        width: 10
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d92c77fb6d26710800000000000000
-      internalID: 1685145328426327367
+      spriteID: c9501575b054a7810800000000000000
+      internalID: 1763798119080854940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_2
+      name: Ellen_Ripley 1_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 140
-        width: 55
-        height: 29
+        x: 2
+        y: 307
+        width: 21
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbb716e7db686dbf0800000000000000
-      internalID: -299904176746300483
+      spriteID: 17af758ea97358f20800000000000000
+      internalID: 3424204230147701361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_3
+      name: Ellen_Ripley 1_3
       rect:
         serializedVersion: 2
-        x: 169
-        y: 140
-        width: 55
-        height: 28
+        x: 27
+        y: 307
+        width: 21
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eeb6769155cf4a60800000000000000
-      internalID: 7660558445387890401
+      spriteID: 5f782356c39b23ed0800000000000000
+      internalID: -2435680779407030283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_4
+      name: Ellen_Ripley 1_4
       rect:
         serializedVersion: 2
-        x: 3
-        y: 102
-        width: 52
-        height: 29
+        x: 55
+        y: 307
+        width: 13
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 876db6344b422a270800000000000000
-      internalID: 8260205023194764920
+      spriteID: ee5571f4f0e268670800000000000000
+      internalID: 8540564386641040878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_5
+      name: Ellen_Ripley 1_5
       rect:
         serializedVersion: 2
-        x: 57
-        y: 102
-        width: 55
-        height: 28
+        x: 79
+        y: 307
+        width: 16
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b53f1cdd7afa1d750800000000000000
-      internalID: 6328032086947132251
+      spriteID: 0fdcc27abe7f44720800000000000000
+      internalID: 2829659057389620720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_6
+      name: Ellen_Ripley 1_6
       rect:
         serializedVersion: 2
-        x: 115
-        y: 102
-        width: 53
-        height: 28
+        x: 2
+        y: 270
+        width: 20
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1154820dfab387510800000000000000
-      internalID: 1547052098299381009
+      spriteID: ab89de3a4165434a0800000000000000
+      internalID: -6614567306050824006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_walk_animation_7
+      name: Ellen_Ripley 1_7
       rect:
         serializedVersion: 2
-        x: 169
-        y: 102
-        width: 53
-        height: 29
+        x: 26
+        y: 270
+        width: 23
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,8 +310,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2be0fa064f7b14880800000000000000
-      internalID: -8628413150843171150
+      spriteID: 8d671dc19e5314640800000000000000
+      internalID: 5062386731468289752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ellen_Ripley 1_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 270
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9692cf4cb4ddad0800000000000000
+      internalID: -2675899294171960856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ellen_Ripley 1_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 270
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc90d5a53095a9040800000000000000
+      internalID: 4655131035776649675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ellen_Ripley 1_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 235
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed166bfe9edfdab10800000000000000
+      internalID: 1994529391185912286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ellen_Ripley 1_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 234
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfee36691c1213c0800000000000000
+      internalID: -4390415791317651500
       vertices: []
       indices: 
       edges: []

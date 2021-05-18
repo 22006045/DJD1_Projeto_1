@@ -1,13 +1,28 @@
 fileFormatVersion: 2
-guid: eacf13397a498274894101cfc13f17e4
+guid: 2de2a9aca8b18d94b996a59ec2f30c8b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6737730626325751522
-    second: acid_1
+      213: -2888751042678869035
+    second: acid 1_0
   - first:
-      213: 8054280360478193846
-    second: acid_2
+      213: -4031950584412538134
+    second: acid 1_1
+  - first:
+      213: 6156182451415439221
+    second: acid 1_2
+  - first:
+      213: 6702836479288245653
+    second: acid 1_3
+  - first:
+      213: 5559264759472391145
+    second: acid 1_4
+  - first:
+      213: -2575475199573749655
+    second: acid 1_5
+  - first:
+      213: 8071957220744538745
+    second: acid 1_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -38,7 +53,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -52,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -84,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +123,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: acid_0
+      name: acid 1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 9
+        x: 10
+        y: 73
         width: 25
-        height: 47
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233e5322435363960800000000000000
-      internalID: 7581305520753337138
+      spriteID: 5d336906b3819e7d0800000000000000
+      internalID: -2888751042678869035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acid_1
+      name: acid 1_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 9
-        width: 26
-        height: 51
+        x: 10
+        y: 125
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e19559181b5ce72a0800000000000000
-      internalID: -6737730626325751522
+      spriteID: aea79204e42ab08c0800000000000000
+      internalID: -4031950584412538134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acid_2
+      name: acid 1_2
       rect:
         serializedVersion: 2
-        x: 54
-        y: 10
-        width: 26
-        height: 51
+        x: 40
+        y: 126
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,8 +190,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b835bf705d86cf60800000000000000
-      internalID: 8054280360478193846
+      spriteID: 5775c1d92572f6550800000000000000
+      internalID: 6156182451415439221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid 1_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 99
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d7187c342450d50800000000000000
+      internalID: 6702836479288245653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid 1_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 73
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e303b038d9762d40800000000000000
+      internalID: 5559264759472391145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid 1_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 99
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960149193f2124cd0800000000000000
+      internalID: -2575475199573749655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid 1_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 33
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97aa0a0435a550070800000000000000
+      internalID: 8071957220744538745
       vertices: []
       indices: 
       edges: []
