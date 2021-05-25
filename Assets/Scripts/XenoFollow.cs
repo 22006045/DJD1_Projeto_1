@@ -9,6 +9,9 @@ public class XenoFollow : Character
     private bool isDead;
     [SerializeField]
     private GameObject PrefabAcido;
+    [SerializeField]
+    private float range;
+    private Player player;
 
     protected override void Start()
     {
@@ -29,20 +32,22 @@ public class XenoFollow : Character
         }
         
         if(isDead == false)
-        {
-
-        
-            transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, speed * Time.deltaTime);
-
-            if(transform.position.x < targetPlayer.position.x)
+        {   
+            while(Vector3.Distance(transform.position, targetPlayer.transform.position) < range)
             {
-                transform.localScale = new Vector3(-1, 1, -1);
+                transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, speed * Time.deltaTime);
+
+                if(transform.position.x < targetPlayer.position.x)
+                {
+                    transform.localScale = new Vector3(-1, 1, -1);
+                }
+
+                else
+                {
+                    transform.localScale = new Vector3(1, 1, 1);
+                }
             }
 
-            else
-            {
-                transform.localScale = new Vector3(1, 1, 1);
-            }
         }
         else
         {
