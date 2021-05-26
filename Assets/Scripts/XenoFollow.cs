@@ -11,7 +11,7 @@ public class XenoFollow : Character
     private GameObject PrefabAcido;
     [SerializeField]
     private float range;
-    private Player player;
+    
 
     protected override void Start()
     {
@@ -33,7 +33,7 @@ public class XenoFollow : Character
         
         if(isDead == false)
         {   
-            while(Vector3.Distance(transform.position, targetPlayer.transform.position) < range)
+            if(Vector3.Distance(transform.position, targetPlayer.transform.position) < range)
             {
                 transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, speed * Time.deltaTime);
 
