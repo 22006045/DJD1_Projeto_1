@@ -5,12 +5,12 @@ using UnityEngine;
 public class Trap : MonoBehaviour
 
 {
-    public bool TimerOn;
+    
     Rigidbody2D rb;
     private GameObject Player;
     private GameObject Xeno;
     private GameObject trap;
-    private float delay = 2.0f;
+    
     
 
     // Start is called before the first frame update
@@ -30,6 +30,12 @@ public class Trap : MonoBehaviour
         if(col.gameObject.name.Equals("Xeno"))
             rb.isKinematic = false;
             
+        if(rb.isKinematic == false)
+        {
+            Destroy(gameObject, 3f);
+        }
+          
+            
     }
     
     void OnCollisionEnter2D (Collision2D col)
@@ -39,6 +45,7 @@ public class Trap : MonoBehaviour
         {
             Vector2 hitDirection = Player.transform.position - transform.position;
             Player.GetComponent<Player>().DealDamage(2,hitDirection);
+            
           
         }  
 
@@ -47,6 +54,7 @@ public class Trap : MonoBehaviour
             Debug.Log("OLAAAA");
             Vector2 hitDirection = Player.transform.position - transform.position;
             col.gameObject.GetComponent<XenoFollow>().DealDamage(2,hitDirection);
+           
         }  
         
           
