@@ -12,11 +12,14 @@ public class Player : Character
     private int         maxJumps = 1;
     [SerializeField]
     private int         jumpGravityStart = 1;
+   
   
-
+    
     private float           hAxis;
     private int             nJumps;
     private float           timeOfJump;
+
+    
 
     void FixedUpdate()
     {
@@ -62,7 +65,14 @@ public class Player : Character
             {
                 rb.gravityScale = 5.0f;
             }
+        
         }
+
+      
+        
+       
+
+
 
         TurnTo(-currentVelocity.x);
 
