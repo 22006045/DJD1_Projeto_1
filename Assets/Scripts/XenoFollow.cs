@@ -17,7 +17,7 @@ public class XenoFollow : Character
     {
         isDead = false;
         targetPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        
+        maxHealth = 20;
         base.Start();
 
     }
@@ -25,6 +25,10 @@ public class XenoFollow : Character
     protected override void Update()
     
     {
+        if(maxHealth <= 19)
+        {
+            range = 500f;
+        }
         if(targetPlayer == null)
         {
             isDead = true;
@@ -69,6 +73,7 @@ public class XenoFollow : Character
         }
 
     }
+    
 
     protected override void OnDeath()
     {

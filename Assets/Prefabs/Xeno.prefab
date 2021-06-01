@@ -186,7 +186,8 @@ MonoBehaviour:
   hitKnockbackDuration: 0.2
   deathPrefab: {fileID: 9013705628397619435, guid: e0e8bb51e4945934a9dc06e866351005,
     type: 3}
-  targetPlayer: {fileID: 0}
+  targetPlayer: {fileID: 2885757496622149391, guid: 774b125e52652304b878eabefb27635b,
+    type: 3}
   speed: 50
   PrefabAcido: {fileID: 9013705628397619435, guid: e0e8bb51e4945934a9dc06e866351005,
     type: 3}

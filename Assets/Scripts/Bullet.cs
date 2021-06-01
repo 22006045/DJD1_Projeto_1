@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
 
+    
     private GameObject Player;
     private GameObject Xeno;
 
@@ -24,10 +25,10 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D (Collision2D bullet)
     {   
-        if(bullet.gameObject.tag == "Player")
+        if(bullet.gameObject.tag == "Ground")
         {
-            Debug.Log("Player was hit");
-            Physics2D.IgnoreCollison(player.collider, collider);
+            Destroy(gameObject);
+            
         }
 
 
