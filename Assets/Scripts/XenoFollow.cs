@@ -10,7 +10,7 @@ public class XenoFollow : Character
     [SerializeField]
     private GameObject PrefabAcido;
     [SerializeField]
-    private float range;
+    public float range;
     
 
     protected override void Start()
@@ -19,22 +19,24 @@ public class XenoFollow : Character
         targetPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         maxHealth = 20;
         base.Start();
-
+        
     }
 
     protected override void Update()
     
     {
-        if(maxHealth <= 19)
+       
+       if(maxHealth <= 19)
         {
-            range = 500f;
+            range += 500f;
         }
+
         if(targetPlayer == null)
         {
             isDead = true;
-           
         }
         
+       
         if(isDead == false)
         {   
             if(Vector3.Distance(transform.position, targetPlayer.transform.position) < range)

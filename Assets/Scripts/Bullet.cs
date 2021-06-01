@@ -38,7 +38,7 @@ public class Bullet : MonoBehaviour
         {
             Debug.Log("You were shot");
             Vector2 hitDirection = Player.transform.position - transform.position;
-            bullet.gameObject.GetComponent<XenoFollow>().DealDamage(1,hitDirection);
+            bullet.gameObject.GetComponent<XenoFollow>().DealDamage(10,hitDirection);
             Destroy(gameObject);
         }
         
