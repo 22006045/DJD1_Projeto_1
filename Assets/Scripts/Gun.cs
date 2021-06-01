@@ -15,10 +15,22 @@ public class Gun : MonoBehaviour
     
     private float nextFire = 0f;
     
+    
+    
+    
     Vector2 myPos;
     Vector2 direction;
     
     
+
+void Start ()
+{
+    
+   
+}
+
+
+
 private void Update()
 {
     if(Input.GetMouseButtonDown(0))
@@ -29,6 +41,8 @@ private void Update()
             }
 }
 
+
+
  void FireBullet()
         {
             if(Time.time > nextFire)
@@ -38,9 +52,12 @@ private void Update()
                 Vector2 direction = target - myPos;
                 direction.Normalize();
                 nextFire = Time.time + fireRate;
-                GameObject newBullet = (GameObject)Instantiate(bullet, myPos , Quaternion.identity);
-                newBullet.GetComponent<Rigidbody2D>().velocity = direction * 100f;
+                GameObject newBullet = (GameObject)Instantiate(bullet, barrelTip.position , Quaternion.identity);
+                newBullet.GetComponent<Rigidbody2D>().velocity = direction * 200f;
             }
             
         }
+
+
+
 }
