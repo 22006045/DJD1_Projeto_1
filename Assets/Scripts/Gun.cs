@@ -15,21 +15,13 @@ public class Gun : MonoBehaviour
     
     private float nextFire = 0f;
     
-    
-    
-    
     Vector2 myPos;
     Vector2 direction;
-    
-    
-
 void Start ()
 {
     
    
 }
-
-
 
 private void Update()
 {

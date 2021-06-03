@@ -4,15 +4,44 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    GameObject door;
 
-    // Update is called once per frame
-    void Update()
+    private coinManager CheckParts;
+
+    private GameObject Player;
+
+    public BoxCollider2D collider;
+    
+    bool isOpen = false;
+
+   void Start()
+   {
+       Player = GameObject.Find("Player");
+       CheckParts = GameObject.Find("PartsManager").GetComponent<coinManager>();
+       
+
+   }
+    void OnTriggerEnter2D(Collider2D col)
     {
-        
+       if(col.gameObject.name.Equals("PrefabAcido1"))
+        {
+            Debug.Log("I GOT ACID ON ME EWWWWWW");
+            isOpen = true;
+           
+        }
+        if(col.gameObject.name.Equals("Player"))
+        {
+            Debug.Log("I see you/n YOU NEED MORE PARTS");
+            isOpen = true;
+           
+        }
+        if(isOpen == true && CheckParts.parts >=1)
+        {
+            
+            GetComponent<BoxCollider2D>().enabled = false;
+        }
+
     }
+   
 }

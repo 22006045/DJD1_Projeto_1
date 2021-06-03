@@ -12,6 +12,7 @@ public class coinManager : MonoBehaviour
     void Start()
     {
         partText.text = "Parts: " + parts;
+        
     }
 
     // Update is called once per frame
