@@ -11,7 +11,7 @@ public class Gun : MonoBehaviour
 
     private Vector2 mousePos;
    
-    public float fireRate = 0.5f;
+    private float fireRate = 0.5f;
     
     private float nextFire = 0f;
     

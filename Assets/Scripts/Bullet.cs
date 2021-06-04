@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour
 
     void OnCollisionEnter2D (Collision2D bullet)
     {   
-        if(bullet.gameObject.tag == "Ground")
+        if(bullet.gameObject.name != "BulletDestroy")
         {
             Destroy(gameObject);
             

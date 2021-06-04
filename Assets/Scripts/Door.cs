@@ -41,7 +41,7 @@ public class Door : MonoBehaviour
             isOpen = true;
            
         }
-        if(isOpen == true && CheckParts.parts >=1)
+        if(isOpen == true && CheckParts.parts >=5)
         {
             
             GetComponent<BoxCollider2D>().enabled = false;
