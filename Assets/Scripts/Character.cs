@@ -28,6 +28,11 @@ public class Character : MonoBehaviour
     protected float       hitKnockbackDuration = 0.2f;
     [SerializeField]
     protected GameObject  deathPrefab;
+    [SerializeField]
+    AudioSource           hurtSound;
+    [SerializeField]
+    AudioClip             dieSoundClip;
+
 
     protected Rigidbody2D       rb;
     protected SpriteRenderer    spriteRenderer;
@@ -85,8 +90,14 @@ public class Character : MonoBehaviour
     public void DealDamage(int damage, Vector2 hitDirection)
     {
         if (!canHit) return;
-        Debug.Log(health);
+        Debug.Log(health - damage);
         health = health - damage;
+
+        if (hurtSound != null)
+        {
+            hurtSound.pitch = Random.Range(0.8f, 1.2f);
+            hurtSound.Play();
+        }
 
         if (health <= 0)
         {
@@ -113,7 +124,8 @@ public class Character : MonoBehaviour
 
             OnDeath();
 
-           
+            SoundManager.instance.PlaySound(dieSoundClip);
+
         }
         else
         {

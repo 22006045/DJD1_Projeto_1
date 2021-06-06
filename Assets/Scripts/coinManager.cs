@@ -5,6 +5,10 @@ using UnityEngine.UI;
 
 public class coinManager : MonoBehaviour
 {
+    [SerializeField]
+    AudioSource coinSound;
+
+
     public Text partText;
     public int parts;
     
@@ -25,5 +29,8 @@ public class coinManager : MonoBehaviour
         {
            parts += numberOfParts;
            partText.text = "Parts: " + parts;
+
+           coinSound.pitch = Random.Range(1.0f, 1.2f);
+            coinSound.Play();
         }
 }

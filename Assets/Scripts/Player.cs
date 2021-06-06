@@ -12,6 +12,8 @@ public class Player : Character
     private int         maxJumps = 1;
     [SerializeField]
     private int         jumpGravityStart = 1;
+    [SerializeField]
+    AudioSource jumpSound;
    
   
     
@@ -53,6 +55,9 @@ public class Player : Character
             rb.gravityScale = jumpGravityStart;
 
             timeOfJump = Time.time;
+
+            jumpSound.pitch = Random.Range(1.0f, 1.2f);
+            jumpSound.Play();
         }
         else 
         {
