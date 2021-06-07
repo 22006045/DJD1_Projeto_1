@@ -9,7 +9,7 @@ public class Character : MonoBehaviour
     [SerializeField]
     protected Faction     faction;
     [SerializeField]
-    protected int         maxHealth = 2;
+    protected int         maxHealth = 10;
     [SerializeField]
     protected Transform   groundCheckObject;
     [SerializeField]
