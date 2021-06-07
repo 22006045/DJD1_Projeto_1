@@ -14,6 +14,8 @@ public class Gun : MonoBehaviour
     private float fireRate = 0.5f;
     
     private float nextFire = 0f;
+
+    private bool TakeAim = false;
     
     Vector2 myPos;
     Vector2 direction;
@@ -25,12 +27,21 @@ void Start ()
 
 private void Update()
 {
-    if(Input.GetMouseButtonDown(0))
+    while(Input.GetMouseButtonDown(1))
+    {
+        TakeAim = true;
+    }
+
+    if(TakeAim == true)
+    {
+        if(Input.GetMouseButtonDown(0))
             {
                
                 Debug.Log("SHOT THE BULLET");
                 FireBullet();
             }
+    }
+    
 }
 
 

@@ -3,7 +3,7 @@
 public class Player : Character
 {
     [SerializeField]
-    private float       moveSpeed = 20.0f;
+    public float       moveSpeed = 20.0f;
     [SerializeField]
     private float       jumpSpeed = 100.0f;
     [SerializeField]

@@ -6,7 +6,7 @@ public class PlayerHealthUI : MonoBehaviour
 {
     [SerializeField]
     private GameObject[]    health;
-
+    
     Player player;
 
 
@@ -24,7 +24,7 @@ public class PlayerHealthUI : MonoBehaviour
             nHealth = player.nHealth;
         }
 
-        for (int i = 0; i < nHealth; i++)
+        for (int i = 0; i < nHealth ; i++)
         {
             health[i].SetActive(true);
         }

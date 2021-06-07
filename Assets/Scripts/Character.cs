@@ -37,7 +37,7 @@ public class Character : MonoBehaviour
     protected Rigidbody2D       rb;
     protected SpriteRenderer    spriteRenderer;
     protected Animator          animator;
-    protected int               health;
+    public int                  health;
     protected float             invulnerabilityTimer = 0;
     protected float             blinkTimer;
     protected float             knockbackTimer;
