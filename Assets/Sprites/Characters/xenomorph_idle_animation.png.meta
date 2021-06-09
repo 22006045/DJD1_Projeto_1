@@ -158,69 +158,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: xenomorph_idle_animation_1
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 59
-        width: 49
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4786291a36310e380800000000000000
-      internalID: -8944127541324388236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: xenomorph_idle_animation_2
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 59
-        width: 53
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38bc1e47e6045c610800000000000000
-      internalID: 1640788482397948803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: xenomorph_idle_animation_3
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 59
-        width: 53
-        height: 29
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8972a23e87ae573a0800000000000000
-      internalID: -6668165868323985512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: xenomorph_idle_animation_4
       rect:
         serializedVersion: 2
@@ -300,6 +237,69 @@ TextureImporter:
       bones: []
       spriteID: 3bc8cb66ff6ec9c60800000000000000
       internalID: 7826384237077761203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xenomorph_idle_animation_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 59
+        width: 49
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4786291a36310e380800000000000000
+      internalID: -8944127541324388236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xenomorph_idle_animation_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 59
+        width: 53
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bc1e47e6045c610800000000000000
+      internalID: 1640788482397948803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xenomorph_idle_animation_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 59
+        width: 53
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8972a23e87ae573a0800000000000000
+      internalID: -6668165868323985512
       vertices: []
       indices: 
       edges: []
