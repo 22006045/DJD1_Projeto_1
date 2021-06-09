@@ -3,7 +3,7 @@
 public class Player : Character
 {
     [SerializeField]
-    public float       moveSpeed = 20.0f;
+    public float       moveSpeed ;
     [SerializeField]
     private float       jumpSpeed = 100.0f;
     [SerializeField]
@@ -95,5 +95,6 @@ public class Player : Character
         GameMng gameManager = FindObjectOfType<GameMng>();
         gameManager.BackToMainMenu(2);
     }
+    
 
 }

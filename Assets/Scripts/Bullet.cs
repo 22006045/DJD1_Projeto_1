@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     
     private GameObject Player;
     private GameObject Xeno;
+    private GameObject DmgPowerUp;
 
     // Start is called before the first frame update
     void Start()
@@ -30,18 +31,15 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
             
         }
-
-
-
-
         if(bullet.gameObject.tag == "Enemy")
         {
             Debug.Log("You were shot");
             Vector2 hitDirection = Player.transform.position - transform.position;
-            bullet.gameObject.GetComponent<XenoFollow>().DealDamage(10,hitDirection);
+            bullet.gameObject.GetComponent<XenoFollow>().DealDamage(5,hitDirection);
             Destroy(gameObject);
         }
         
     }
+    
 }
 

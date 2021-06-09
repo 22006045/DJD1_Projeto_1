@@ -4,20 +4,45 @@ using UnityEngine;
 
 public class PowerUpSpeed : MonoBehaviour
 {
-    public int SpeedBonus = 100;
+    public int SpeedBonus ;
+    private float timer;
+    private bool Speeding;
+    
 
+
+  void Start()
+  {
+    timer = 0;
+    Speeding = false;
+    SpeedBonus = 0;
+  }
+
+  void Update()
+  {
+    if(Speeding)
+    {
+      timer += Time.deltaTime;
+      if(timer >= 3)
+      {
+        SpeedBonus = 0;
+        timer = 0;
+        Speeding = false;
+      } 
+
+    }
+  }
   
-   private void OnTriggerEnter2D(Collider2D col)
+  void OnTriggerEnter2D(Collider2D col)
    {
        if(col.tag == "Player")
        {
+          Speeding = true;
+          SpeedBonus = 300;
           GameObject player = col.gameObject;
           Player playerscript = player.GetComponent<Player>();
-          if(playerscript)
-          {
-            playerscript.moveSpeed += SpeedBonus;
-            Destroy(gameObject);
-          }
+          playerscript.moveSpeed = SpeedBonus;
+          Destroy(gameObject);
+
        }
    }
 }

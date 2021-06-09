@@ -11,12 +11,14 @@ public class XenoFollow : Character
     private GameObject PrefabAcido;
     [SerializeField]
     public float range;
+    private Animator enemyWalk;
     
 
     protected override void Start()
     {
         isDead = false;
         targetPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        enemyWalk = GetComponent<Animator>();
         maxHealth = 20;
         base.Start();
         
@@ -42,15 +44,18 @@ public class XenoFollow : Character
             if(Vector3.Distance(transform.position, targetPlayer.transform.position) < range)
             {
                 transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, speed * Time.deltaTime);
+                enemyWalk.SetBool("Walk",false);
 
                 if(transform.position.x < targetPlayer.position.x)
                 {
                     transform.localScale = new Vector3(-1, 1, -1);
+                    enemyWalk.SetBool("Walk",false);
                 }
 
                 else
                 {
                     transform.localScale = new Vector3(1, 1, 1);
+                    enemyWalk.SetBool("Walk",false);
                 }
             }
 
@@ -85,5 +90,5 @@ public class XenoFollow : Character
         }
         
     }  
-    
-}
+}  
+   
