@@ -42,9 +42,14 @@ public class GameMng : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
+    public void StartGame()
+    {
+        SceneManager.LoadScene("0");
+    }
     public void LoadMenu()
     {
         Debug.Log("Loading");
+        SceneManager.LoadScene("MainMenu");
     }
     public void QuitGame()
     {
@@ -67,6 +72,6 @@ public class GameMng : MonoBehaviour
             elapsedTime += Time.deltaTime;
 
         }
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("DeathMenu");
     }
 }
