@@ -18,12 +18,7 @@ public class PowerUpHealth : MonoBehaviour
           if(playerscript)
           {
             playerscript.health += HealthBonus;
-            if(playerscript.health >=3 )
-            {
-            Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-            }
           }
-          
        }
    }
 
