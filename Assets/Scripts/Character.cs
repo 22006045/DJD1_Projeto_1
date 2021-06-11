@@ -149,7 +149,7 @@ public class Character : MonoBehaviour
         return (collider != null);
     }
 
-    protected void TurnTo(float dirX)
+    protected virtual void TurnTo(float dirX)
     {
         if (dirX < -0.1)
         {

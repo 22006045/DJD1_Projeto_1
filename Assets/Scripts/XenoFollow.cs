@@ -67,7 +67,7 @@ public class XenoFollow : Character
         base.Update();
     }
 
-     private void OnTriggerEnter2D(Collider2D collision)
+     private void OnTriggerStay2D(Collider2D collision)
     {
         Character character = collision.GetComponent<Character>();
         if (character != null && collision.gameObject.name.Equals("Player"))

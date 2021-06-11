@@ -42,14 +42,12 @@ public class GameMng : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
-    public void StartGame()
-    {
-        SceneManager.LoadScene("0");
-    }
+    
     public void LoadMenu()
     {
         Debug.Log("Loading");
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("0");
+        Time.timeScale = 1f;
     }
     public void QuitGame()
     {

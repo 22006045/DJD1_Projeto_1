@@ -28,7 +28,7 @@ public class Door : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col)
     {
        
-       if(col.gameObject.name == "Acid")
+       if(col.gameObject.tag == "Acid")
         {
             Debug.Log("I GOT ACID ON ME EWWWWWW");
             isOpen = true;

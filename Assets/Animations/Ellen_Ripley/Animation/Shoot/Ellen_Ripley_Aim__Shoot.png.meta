@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: 7de8fd9e891bb2443b185bbf81792ba1
+guid: b64c6427d923e094da3970d61170f80b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2906397964264285396
-    second: Ellen_Ripley 1_0
+      213: -5882908313841602794
+    second: Ellen_Ripley_Aim__Shoot_0
   - first:
-      213: 1763798119080854940
-    second: Ellen_Ripley 1_1
+      213: 1123104081019727828
+    second: Ellen_Ripley_Aim__Shoot_1
   - first:
-      213: 3424204230147701361
-    second: Ellen_Ripley 1_2
+      213: -1770469256139314839
+    second: Ellen_Ripley_Aim__Shoot_2
   - first:
-      213: -2435680779407030283
-    second: Ellen_Ripley 1_3
+      213: 4248687653364828896
+    second: Ellen_Ripley_Aim__Shoot_3
   - first:
-      213: 8540564386641040878
-    second: Ellen_Ripley 1_4
+      213: 8597217194383151977
+    second: Ellen_Ripley_Aim__Shoot_4
   - first:
-      213: 2829659057389620720
-    second: Ellen_Ripley 1_5
+      213: -26682566166881293
+    second: Ellen_Ripley_Aim__Shoot_5
   - first:
-      213: -6614567306050824006
-    second: Ellen_Ripley 1_6
+      213: 7962027737417307332
+    second: Ellen_Ripley_Aim__Shoot_6
   - first:
-      213: 5062386731468289752
-    second: Ellen_Ripley 1_7
-  - first:
-      213: -2675899294171960856
-    second: Ellen_Ripley 1_8
-  - first:
-      213: 4655131035776649675
-    second: Ellen_Ripley 1_9
-  - first:
-      213: 1994529391185912286
-    second: Ellen_Ripley 1_10
-  - first:
-      213: -4390415791317651500
-    second: Ellen_Ripley 1_11
+      213: 1750791470875963918
+    second: Ellen_Ripley_Aim__Shoot_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -149,13 +137,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ellen_Ripley 1_0
+      name: Ellen_Ripley_Aim__Shoot_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 344
-        width: 10
-        height: 34
+        x: 7
+        y: 46
+        width: 12
+        height: 33
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,145 +151,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d424ebbc89955820800000000000000
-      internalID: 2906397964264285396
+      spriteID: 61f674bbe06bb5ea0800000000000000
+      internalID: -5882908313841602794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ellen_Ripley 1_1
+      name: Ellen_Ripley_Aim__Shoot_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 344
-        width: 10
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9501575b054a7810800000000000000
-      internalID: 1763798119080854940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ellen_Ripley 1_2
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 307
-        width: 21
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17af758ea97358f20800000000000000
-      internalID: 3424204230147701361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ellen_Ripley 1_3
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 307
-        width: 21
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f782356c39b23ed0800000000000000
-      internalID: -2435680779407030283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ellen_Ripley 1_4
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 307
-        width: 13
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee5571f4f0e268670800000000000000
-      internalID: 8540564386641040878
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ellen_Ripley 1_5
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 307
+        x: 31
+        y: 46
         width: 16
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fdcc27abe7f44720800000000000000
-      internalID: 2829659057389620720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ellen_Ripley 1_6
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 270
-        width: 20
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab89de3a4165434a0800000000000000
-      internalID: -6614567306050824006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ellen_Ripley 1_7
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 270
-        width: 23
         height: 33
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -310,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d671dc19e5314640800000000000000
-      internalID: 5062386731468289752
+      spriteID: 4dfe8f21631169f00800000000000000
+      internalID: 1123104081019727828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ellen_Ripley 1_8
+      name: Ellen_Ripley_Aim__Shoot_2
       rect:
         serializedVersion: 2
-        x: 55
-        y: 270
-        width: 13
-        height: 35
+        x: 56
+        y: 46
+        width: 18
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,40 +193,61 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e9692cf4cb4ddad0800000000000000
-      internalID: -2675899294171960856
+      spriteID: 969e01687970e67e0800000000000000
+      internalID: -1770469256139314839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ellen_Ripley 1_9
+      name: Ellen_Ripley_Aim__Shoot_3
       rect:
         serializedVersion: 2
-        x: 79
-        y: 270
+        x: 81
+        y: 46
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea066409ee56fa30800000000000000
+      internalID: 4248687653364828896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ellen_Ripley_Aim__Shoot_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 9
+        width: 18
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96396100d737f4770800000000000000
+      internalID: 8597217194383151977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ellen_Ripley_Aim__Shoot_5
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 9
         width: 16
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc90d5a53095a9040800000000000000
-      internalID: 4655131035776649675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ellen_Ripley 1_10
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 235
-        width: 19
         height: 33
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -373,19 +256,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed166bfe9edfdab10800000000000000
-      internalID: 1994529391185912286
+      spriteID: 3fb5de1f85431aff0800000000000000
+      internalID: -26682566166881293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ellen_Ripley 1_11
+      name: Ellen_Ripley_Aim__Shoot_6
       rect:
         serializedVersion: 2
-        x: 34
-        y: 234
-        width: 13
+        x: 56
+        y: 9
+        width: 16
         height: 33
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -394,8 +277,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dfee36691c1213c0800000000000000
-      internalID: -4390415791317651500
+      spriteID: 4c4d094ea0ece7e60800000000000000
+      internalID: 7962027737417307332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ellen_Ripley_Aim__Shoot_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 9
+        width: 16
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e027851119f0c4810800000000000000
+      internalID: 1750791470875963918
       vertices: []
       indices: 
       edges: []

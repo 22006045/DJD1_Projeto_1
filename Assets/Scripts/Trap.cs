@@ -29,6 +29,9 @@ public class Trap : MonoBehaviour
             
         if(col.gameObject.name.Equals("Xeno"))
             rb.isKinematic = false;
+
+        if(col.gameObject.tag == "Bullet")
+            rb.isKinematic = false;
             
         if(rb.isKinematic == false)
         {
