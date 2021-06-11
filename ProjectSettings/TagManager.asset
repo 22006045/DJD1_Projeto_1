@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Acid
   - Part
+  - Bullet
   layers:
   - Default
   - TransparentFX

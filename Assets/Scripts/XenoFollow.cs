@@ -28,10 +28,7 @@ public class XenoFollow : Character
     
     {
        
-       if(maxHealth <= 19)
-        {
-            range += 500f;
-        }
+       
 
         if(targetPlayer == null)
         {
@@ -45,10 +42,14 @@ public class XenoFollow : Character
             {
                 transform.position = Vector2.MoveTowards(transform.position, targetPlayer.position, speed * Time.deltaTime);
                 enemyWalk.SetBool("Walk",false);
+                if(maxHealth <= 19)
+                 {
+                    range += 500f;
+                 }
 
                 if(transform.position.x < targetPlayer.position.x)
                 {
-                    transform.localScale = new Vector3(-1, 1, -1);
+                    transform.localScale = new Vector3(-1, 1, -1);  
                     enemyWalk.SetBool("Walk",false);
                 }
 

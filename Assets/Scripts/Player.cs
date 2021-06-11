@@ -93,26 +93,6 @@ public class Player : Character
 
         base.Update();
     }
-    protected override void TurnTo(float dirX)
-    {
-        Vector2 Pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        
-        if (Pos.x >= transform.position.x)
-        {
-            Vector3 currentRotation = transform.rotation.eulerAngles;
-            currentRotation.y = 0;
-            transform.rotation = Quaternion.Euler(currentRotation);
-        }
-        else if (Pos.x < transform.position.x)
-        {
-            Vector3 currentRotation = transform.rotation.eulerAngles;
-            currentRotation.y = 180;
-            transform.rotation = Quaternion.Euler(currentRotation);
-        }
-    }
-
-
-
 
     protected override void OnDeath()
     {
