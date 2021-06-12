@@ -32,6 +32,7 @@ public class Door : MonoBehaviour
         {
             Debug.Log("I GOT ACID ON ME EWWWWWW");
             isOpen = true;
+            
            
         }
         if(col.gameObject.name.Equals("Player"))
@@ -41,10 +42,16 @@ public class Door : MonoBehaviour
             isOpen = true;
            
         }
-        if(isOpen == true && CheckParts.parts >=5)
+        if(isOpen == true && CheckParts.parts >=1)
         {
             
             GetComponent<BoxCollider2D>().enabled = false;
+        }
+        if(isOpen == true && col.gameObject.tag == "Acid" )
+        {
+
+            GetComponent<BoxCollider2D>().enabled = false;
+
         }
         
             
