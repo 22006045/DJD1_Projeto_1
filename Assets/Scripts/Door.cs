@@ -17,12 +17,18 @@ public class Door : MonoBehaviour
 
     public GameObject popUp;
 
+    private Animator led_green;
+
+    private Animator open_door;
+
 
    void Start()
    {
        Player = GameObject.Find("Player");
        CheckParts = GameObject.Find("PartsManager").GetComponent<coinManager>();
        popUp.SetActive(false);
+       led_green = GetComponent<Animator>();
+       open_door = GetComponent<Animator>();
 
    }
     void OnTriggerEnter2D(Collider2D col)
@@ -44,9 +50,13 @@ public class Door : MonoBehaviour
         }
         if(isOpen == true && CheckParts.parts >=1)
         {
-            
+            open_door.SetBool("open",true);
+            led_green.SetBool("set_green",true);
             GetComponent<BoxCollider2D>().enabled = false;
+        
         }
+        else led_green.SetBool("set_green",false);
+       
         if(isOpen == true && col.gameObject.tag == "Acid" )
         {
 
