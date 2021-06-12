@@ -8,8 +8,6 @@ public class Gun : MonoBehaviour
     private Transform   barrelTip;
     [SerializeField]
     private GameObject  bullet;
-    [SerializeField]
-    private AudioSource  gunshot;
 
     private Vector2 mousePos;
    
@@ -20,6 +18,8 @@ public class Gun : MonoBehaviour
     private Animator PlayerAim;
 
     private Animator PlayerShoot;
+
+    AudioSource gunshot;
     
     Vector2 myPos;
     Vector2 direction;
@@ -43,8 +43,12 @@ private void Update()
             {
                 PlayerShoot.SetBool("Shoot",true);
                 Debug.Log("SHOT THE BULLET");
-                
+
                 FireBullet();
+                {
+                    gunshot.Play();
+                }
+                
             }
             else
             PlayerShoot.SetBool("Shoot",false);

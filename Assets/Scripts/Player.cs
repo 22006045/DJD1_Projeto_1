@@ -105,8 +105,4 @@ public class Player : Character
         footstep.Play();
     }
 
-    protected void Secondfootstep()
-    {
-        secondfootstep.Play();
-    }
 }

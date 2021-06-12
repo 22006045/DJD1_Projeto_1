@@ -21,6 +21,8 @@ public class Door : MonoBehaviour
 
     private Animator open_door;
 
+    public AudioSource DoorSound;
+
 
    void Start()
    {
@@ -29,6 +31,7 @@ public class Door : MonoBehaviour
        popUp.SetActive(false);
        led_green = GetComponent<Animator>();
        open_door = GetComponent<Animator>();
+       DoorSound = GetComponent<AudioSource>();
 
    }
     void OnTriggerEnter2D(Collider2D col)
@@ -48,11 +51,12 @@ public class Door : MonoBehaviour
             isOpen = true;
            
         }
-        if(isOpen == true && CheckParts.parts >=1)
+        if(isOpen == true && CheckParts.parts >=5)
         {
             open_door.SetBool("open",true);
             led_green.SetBool("set_green",true);
             GetComponent<BoxCollider2D>().enabled = false;
+            DoorSound.Play();
         
         }
         else led_green.SetBool("set_green",false);
