@@ -164,7 +164,7 @@ MonoBehaviour:
   speed: 50
   PrefabAcido: {fileID: 742968571836257299, guid: 39d17834bd80ca544b70080b1cfe2f60,
     type: 3}
-  range: 210
+  range: 300
 --- !u!70 &8072352189715899376
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
