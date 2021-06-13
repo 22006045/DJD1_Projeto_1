@@ -17,7 +17,7 @@ public class Door_2 : MonoBehaviour
 
     public GameObject popUp;
 
-    private Animator led_green;
+    
 
     private Animator open_door;
 
@@ -29,7 +29,7 @@ public class Door_2 : MonoBehaviour
        Player = GameObject.Find("Player");
        CheckParts = GameObject.Find("PartsManager").GetComponent<coinManager>();
        popUp.SetActive(false);
-       led_green = GetComponent<Animator>();
+      
        open_door = GetComponent<Animator>();
        DoorSound = GetComponent<AudioSource>();
 
@@ -54,12 +54,11 @@ public class Door_2 : MonoBehaviour
         if(isOpen == true && CheckParts.parts >=6)
         {
             open_door.SetBool("open",true);
-            led_green.SetBool("set_green",true);
             GetComponent<BoxCollider2D>().enabled = false;
             DoorSound.Play();
         
         }
-        else led_green.SetBool("set_green",false);
+       
        
         if(isOpen == true && col.gameObject.tag == "Acid" )
         {

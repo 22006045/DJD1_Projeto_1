@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Door : MonoBehaviour
+public class Door_3 : MonoBehaviour
 {
     [SerializeField]
     GameObject door;
@@ -17,6 +17,8 @@ public class Door : MonoBehaviour
 
     public GameObject popUp;
 
+    
+
     private Animator open_door;
 
     public AudioSource DoorSound;
@@ -27,7 +29,7 @@ public class Door : MonoBehaviour
        Player = GameObject.Find("Player");
        CheckParts = GameObject.Find("PartsManager").GetComponent<coinManager>();
        popUp.SetActive(false);
-       
+      
        open_door = GetComponent<Animator>();
        DoorSound = GetComponent<AudioSource>();
 
@@ -49,15 +51,14 @@ public class Door : MonoBehaviour
             isOpen = true;
            
         }
-        if(isOpen == true && CheckParts.parts >=5)
+        if(isOpen == true && CheckParts.parts >=10)
         {
             open_door.SetBool("open",true);
-            
             GetComponent<BoxCollider2D>().enabled = false;
             DoorSound.Play();
         
         }
-        
+       
        
         if(isOpen == true && col.gameObject.tag == "Acid" )
         {
@@ -75,3 +76,4 @@ public class Door : MonoBehaviour
     }
    
 }
+

@@ -8,6 +8,8 @@ public class Gun : MonoBehaviour
     private Transform   barrelTip;
     [SerializeField]
     private GameObject  bullet;
+    [SerializeField]
+    private Transform  GunPos;
 
     private Vector2 mousePos;
    
@@ -67,7 +69,7 @@ private void Update()
                 
                 gunshot.Play();
                 Vector2 target = Camera.main.ScreenToWorldPoint( new Vector2(Input.mousePosition.x,  Input.mousePosition.y) );
-                Vector2 myPos = new Vector2(transform.position.x,transform.position.y );
+                Vector2 myPos = new Vector2(GunPos.position.x,GunPos.position.y );
                 Vector2 direction = target - myPos;
                 direction.Normalize();
                 nextFire = Time.time + fireRate;
