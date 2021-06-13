@@ -47,9 +47,9 @@ private void Update()
                 Debug.Log("SHOT THE BULLET");
 
                 FireBullet();
-                {
-                    gunshot.Play();
-                }
+                
+                    
+                
                 
             }
             else

@@ -177,6 +177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f95ea24aa4320448957bbb9b6ec4b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartGameUI: {fileID: 0}
 --- !u!114 &147115196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,7 +758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 199}
+  m_AnchoredPosition: {x: -6, y: 242}
   m_SizeDelta: {x: 479.24106, y: 140.9455}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1157274022
@@ -780,7 +781,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Died
+  m_text: YOU DIED
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f36ffb668a64b3a48930d21fe9a45969, type: 2}
   m_sharedMaterial: {fileID: 8487989310564885002, guid: f36ffb668a64b3a48930d21fe9a45969,

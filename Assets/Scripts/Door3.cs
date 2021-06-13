@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Door_3 : MonoBehaviour
+public class Door3 : MonoBehaviour
 {
     [SerializeField]
     GameObject door;
@@ -64,7 +64,7 @@ public class Door_3 : MonoBehaviour
         {
 
             GetComponent<BoxCollider2D>().enabled = false;
-
+            
         }
         
             

@@ -9,6 +9,7 @@ TagManager:
   - Acid
   - Part
   - Bullet
+  - Win
   layers:
   - Default
   - TransparentFX

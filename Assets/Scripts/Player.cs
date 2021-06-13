@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 public class Player : Character
 {
     [SerializeField]
@@ -33,6 +34,7 @@ public class Player : Character
         {
             rb.velocity = new Vector2(hAxis * moveSpeed, rb.velocity.y);
         }
+        
     }
 
     protected override void Update()
@@ -104,5 +106,7 @@ public class Player : Character
     {
         footstep.Play();
     }
+
+   
 
 }
